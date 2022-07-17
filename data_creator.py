@@ -5,7 +5,7 @@ y = []
 z=[]
 counter = 0
 
-for line in open(r'C:\Users\roige\Desktop\של רועי\ecosystem\data.txt', 'r'):
+for line in open('data.txt', 'r'):
 	lines = [i for i in line.split(',')]
 	x.append(int(lines[0]))
 	y.append(int(lines[1]))
